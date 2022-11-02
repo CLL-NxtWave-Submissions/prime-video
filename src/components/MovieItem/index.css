@@ -1,1 +1,15 @@
-/* Write your CSS here */
+.movie-item-container {
+  border-radius: 0.8rem;
+}
+
+.movie-item-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: inherit;
+}
+
+.movie-item-thumbnail-img {
+  border-radius: 0.8rem;
+  width: 100%;
+}
