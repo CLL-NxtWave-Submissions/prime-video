@@ -32,6 +32,8 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 3rem;
+  list-style-type: none;
+  padding-left: 0;
 }
 
 .prime-video-category-name {
