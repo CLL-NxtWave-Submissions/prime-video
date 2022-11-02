@@ -17,7 +17,10 @@ const MoviesSlider = props => {
     <Slider {...sliderProps}>
       {sliderMoviesList.map(sliderMoviesListItem => (
         <div>
-          <MovieItem itemData={sliderMoviesListItem} />
+          <MovieItem
+            key={sliderMoviesListItem.id}
+            itemData={sliderMoviesListItem}
+          />
         </div>
       ))}
     </Slider>
