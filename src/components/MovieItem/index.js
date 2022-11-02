@@ -26,7 +26,6 @@ const MovieItem = props => {
           <div className="popup-container">
             <div className="popup-header-container">
               <button
-                testid="closeButton"
                 className="popup-close-btn"
                 type="button"
                 onClick={() => close()}
