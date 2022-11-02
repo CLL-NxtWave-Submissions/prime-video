@@ -1,5 +1,5 @@
 import Popup from 'reactjs-popup'
-import ReactPlayer from 'react-player/youtube'
+import ReactPlayer from 'react-player'
 import {IoMdClose} from 'react-icons/io'
 import 'reactjs-popup/dist/index.css'
 
@@ -26,6 +26,7 @@ const MovieItem = props => {
           <div className="popup-container">
             <div className="popup-header-container">
               <button
+                testid="closeButton"
                 className="popup-close-btn"
                 type="button"
                 onClick={() => close()}
